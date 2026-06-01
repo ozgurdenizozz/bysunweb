@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "solutions": "Lösungen",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "projects": "Projekte",
+    "resources": "Ressourcen",
+    "contact": "Kontakt",
+    "cta": "Kostenlose Voranalyse"
+  },
+  "hero": {
+    "badge": "BY SUN SOLAR ENERGY PLATFORM",
+    "headline": "Mit dem richtigen Partner ist Ihre Energieinvestition",
+    "headlineAccent": "zukunftssicher.",
+    "subtext": "Wir bieten Engineering, EPC, Betrieb und digitales Energiemanagement in einer integrierten Plattform.",
+    "cta1": "Kostenlose Voranalyse",
+    "cta2": "So funktioniert es",
+    "cta2sub": "In 2 Minuten entdecken"
+  },
+  "trust": {
+    "title": "Unsere Vertrauensstandards",
+    "anre": "ANRE-Konform",
+    "anreDesc": "Vollständige Compliance",
+    "epc": "EPC-Kompetenz",
+    "epcDesc": "Engineering-Erfahrung",
+    "energyos": "EnergyOS-Betrieben",
+    "energyosDesc": "Intelligente Analyseplattform",
+    "om": "Langfristiger O&M",
+    "omDesc": "Betrieb und Wartung"
+  },
+  "feasibility": {
+    "title": "Wir verwandeln Ihre Daten in Analysen und decken Einsparpotenziale auf.",
+    "description": "Basierend auf Ihrer Dachfläche und Ihrem aktuellen Verbrauch bieten wir kostenlos eine Berechnung der erzeugbaren Energie, eine OPCOM-basierte Ersparnis­analyse und eine Investitionsrenditeanalyse an.",
+    "card1": "Dachflächen-m²-Analyse",
+    "card2": "Berechnung der erzeugbaren Energie",
+    "card3": "Verbrauchsabgleich",
+    "card4": "OPCOM-Preisbasierte Wirtschaftlichkeit",
+    "cta": "Kostenlose Voranalyse erhalten"
+  },
+  "solutions": {
+    "title": "Unsere Lösungen",
+    "subtitle": "Ganzheitliche Energielösungen für Industrie und Gewerbe.",
+    "rooftop": {
+      "title": "Dach-PV-Lösungen",
+      "desc": "Wir planen, installieren und betreiben hocheffiziente Dach-PV-Systeme für Industrie- und Gewerbebetriebe."
+    },
+    "carport": {
+      "title": "Carport & E-Ladelösungen",
+      "desc": "Wir bieten zukunftssichere Mobilitätslösungen mit solar­integrierten Carport-Systemen und intelligenter Ladeinfrastruktur."
+    },
+    "bess": {
+      "title": "BESS-Energiespeicherlösungen",
+      "desc": "Wir speichern Ihre Energie, ermöglichen flexiblen Einsatz und reduzieren Ihre Netzabhängigkeit."
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Felderfahrung. Engineering-Vertrauen.",
+    "desc": "BY SUN SOLAR ENERGY PLATFORM ist ein Energietransformations­partner, der mit praxisbasierter EPC-Erfahrung, operativem Know-how und der Perspektive eines eigenen Energieerzeugers agiert.",
+    "desc2": "Dank der Energieanlagen-Erfahrung unserer Gründer entwickeln wir Projekte, die Risiken, Amortisations­zeiträume und echte Feldbedürfnisse aus Investorensicht verstehen.",
+    "point1": "Echte Feld- und EPC-Erfahrung",
+    "point2": "Expertise in Energieerzeugungsanlagen",
+    "point3": "Investorenperspektive",
+    "point4": "Langfristige Betriebsperspektive",
+    "cta": "Mehr über uns erfahren"
+  },
+  "energyos": {
+    "title": "BY SUN EnergyOS",
+    "subtitle": "Intelligente Energiemanagement-Plattform",
+    "desc": "Eine digitale Energiemanagement-Schicht, die Erzeugung, Verbrauch, Wartung, Leistung, ESG und Einspardaten in einem Zentrum sichtbar macht.",
+    "module1": "Produktionsüberwachung",
+    "module2": "Speicher & Flexibilität",
+    "module3": "E-Ladebereitschaft",
+    "module4": "Steuerzentrale",
+    "module5": "ESG-Dashboard",
+    "module6": "Alarm / Wartung / Leistung",
+    "cta": "EnergyOS entdecken"
+  },
+  "esg": {
+    "title": "Wir verwandeln grüne Energie in messbaren Wert.",
+    "message": "Erzeugen Sie Ihre Energie. Zertifizieren Sie sie. Berichten Sie darüber. Wandeln Sie sie in Unternehmenswert um.",
+    "module1": "Grünstromzertifizierung",
+    "module2": "GO / I-REC-Prozessmanagement",
+    "module3": "ESG & CO₂-Berichterstattung",
+    "module4": "EnergyOS ESG-Dashboard",
+    "module5": "Monatlicher ESG / CO₂-Bericht",
+    "cta": "ESG-Lösungen erkunden"
+  },
+  "projects": {
+    "title": "Beispielanwendungen",
+    "subtitle": "Unsere branchenspezifischen Lösungsszenarien.",
+    "note": "Bilder dienen nur zur Illustration.",
+    "card1": "Gewerbliche Dach-PV-Anlage",
+    "card2": "Solar-Carport & E-Ladeinfrastruktur",
+    "card3": "BESS-Energiespeicheranlage",
+    "card4": "EnergyOS-Monitoring-Anwendung"
+  },
+  "contact": {
+    "title": "Lassen Sie uns Ihre Energietransformation gemeinsam planen.",
+    "desc": "Wir erstellen eine Vorstudie auf Basis Ihrer Stromrechnung, Dach-/Stellplatzfläche, Standort und Verbrauchsprofil.",
+    "cta": "Kostenlose Voranalyse erhalten",
+    "company": "Firmenname",
+    "contact_person": "Ansprechpartner",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "location": "Anlagenstandort",
+    "area": "Dach-/Parkplatzfläche m²",
+    "consumption": "Monatlicher/Jährlicher Verbrauch (kWh)",
+    "invoice": "Stromrechnung hochladen",
+    "submit": "Voranalyse anfragen",
+    "sending": "Wird gesendet...",
+    "success": "Ihre Anfrage wurde erhalten! Wir melden uns in Kürze.",
+    "required": "Dieses Feld ist erforderlich."
+  },
+  "valueProps": {
+    "vp1Title": "Engineering",
+    "vp1Desc": "Fokussierter Ansatz",
+    "vp2Title": "Qualität & Sicherheit",
+    "vp2Desc": "Ihre Priorität",
+    "vp3Title": "Durchgängig",
+    "vp3Desc": "Service",
+    "vp4Title": "Finanzoptimierung",
+    "vp4Desc": "Mehrwert für Ihre Investition",
+    "vp5Title": "Nachhaltige Zukunft",
+    "vp5Desc": "Sauberere Morgen"
+  },
+  "footer": {
+    "slogan": "Starke Investition • Intelligente Einsparung • Energieunabhängigkeit",
+    "solutions": "Lösungen",
+    "rooftop": "Dach-PV",
+    "carport": "Carport & E-Laden",
+    "bess": "BESS-Speicher",
+    "platform": "Plattform",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "resources": "Ressourcen",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie"
+  }
+}

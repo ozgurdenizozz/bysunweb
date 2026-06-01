@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "solutions": "Solutions",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "projects": "Projects",
+    "resources": "Resources",
+    "contact": "Contact",
+    "cta": "Free Pre-Feasibility"
+  },
+  "hero": {
+    "badge": "BY SUN SOLAR ENERGY PLATFORM",
+    "headline": "With the right partner, your energy investment is",
+    "headlineAccent": "future-ready.",
+    "subtext": "We deliver engineering, EPC, operations and digital energy management in one integrated platform.",
+    "cta1": "Free Pre-Feasibility",
+    "cta2": "How It Works",
+    "cta2sub": "Discover in 2 minutes"
+  },
+  "trust": {
+    "title": "Our Trust Standards",
+    "anre": "ANRE Compliant",
+    "anreDesc": "Full regulatory compliance",
+    "epc": "EPC Expertise",
+    "epcDesc": "Engineering-driven experience",
+    "energyos": "EnergyOS Powered",
+    "energyosDesc": "Smart analytics platform",
+    "om": "Long-Term O&M",
+    "omDesc": "Operations & maintenance support"
+  },
+  "feasibility": {
+    "title": "We turn your data into analysis and reveal savings opportunities.",
+    "description": "Based on your roof area and current consumption, we provide free producible energy calculation, OPCOM-based savings analysis, and investment return analysis.",
+    "card1": "Roof m² Area Analysis",
+    "card2": "Producible Energy Calculation",
+    "card3": "Consumption Matching",
+    "card4": "OPCOM Price-Based Economics",
+    "cta": "Get Free Pre-Feasibility"
+  },
+  "solutions": {
+    "title": "Our Solutions",
+    "subtitle": "End-to-end energy solutions for industrial and commercial facilities.",
+    "rooftop": {
+      "title": "Rooftop PV Solutions",
+      "desc": "We design, install and operate high-efficiency rooftop PV systems for industrial and commercial facilities."
+    },
+    "carport": {
+      "title": "Carport & EV Charging Solutions",
+      "desc": "We offer future-ready mobility solutions with solar-integrated carport systems and smart charging infrastructure."
+    },
+    "bess": {
+      "title": "BESS Energy Storage Solutions",
+      "desc": "We store your energy, enable flexible usage and reduce your grid dependency."
+    },
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "Field experience. Engineering trust.",
+    "desc": "BY SUN SOLAR ENERGY PLATFORM is an energy transformation partner operating with field-based EPC experience, operational know-how and an own-energy-production investment perspective.",
+    "desc2": "Thanks to our founders' energy generation plant experience, we develop projects that understand risks, return periods and real field requirements from an investor's perspective.",
+    "point1": "Real field and EPC experience",
+    "point2": "Energy generation plant expertise",
+    "point3": "Investor perspective",
+    "point4": "Long-term operations perspective",
+    "cta": "Learn More About Us"
+  },
+  "energyos": {
+    "title": "BY SUN EnergyOS",
+    "subtitle": "Smart Energy Management Platform",
+    "desc": "A digital energy management layer that makes production, consumption, maintenance, performance, ESG and savings data visible in one center.",
+    "module1": "Production Monitoring",
+    "module2": "Storage & Flexibility",
+    "module3": "EV Charging Readiness",
+    "module4": "Control Center",
+    "module5": "ESG Dashboard",
+    "module6": "Alarm / Maintenance / Performance",
+    "cta": "Explore EnergyOS"
+  },
+  "esg": {
+    "title": "We transform green energy into measurable value.",
+    "message": "Produce your energy. Certify it. Report it. Convert it into corporate value.",
+    "module1": "Green Energy Certification",
+    "module2": "GO / I-REC Process Management",
+    "module3": "ESG & Carbon Reporting",
+    "module4": "EnergyOS ESG Dashboard",
+    "module5": "Monthly ESG / Carbon Report",
+    "cta": "Explore ESG Solutions"
+  },
+  "projects": {
+    "title": "Example Applications",
+    "subtitle": "Our sector-specific solution scenarios.",
+    "note": "Images are for illustration purposes.",
+    "card1": "Commercial Rooftop PV Application",
+    "card2": "Solar Carport & EV Charging Infrastructure",
+    "card3": "BESS Energy Storage Facility",
+    "card4": "EnergyOS Monitoring Application"
+  },
+  "contact": {
+    "title": "Let's plan your energy transformation together.",
+    "desc": "Let us prepare a pre-feasibility based on your electricity invoice, roof/parking area, facility location and consumption profile.",
+    "cta": "Get Free Pre-Feasibility",
+    "company": "Company Name",
+    "contact_person": "Contact Person",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Facility Location",
+    "area": "Roof/Parking Area m²",
+    "consumption": "Monthly/Annual Consumption (kWh)",
+    "invoice": "Upload Electricity Invoice",
+    "submit": "Request Pre-Feasibility",
+    "sending": "Sending...",
+    "success": "Your request has been received! We will contact you shortly.",
+    "required": "This field is required."
+  },
+  "valueProps": {
+    "vp1Title": "Engineering",
+    "vp1Desc": "Focused Approach",
+    "vp2Title": "Quality & Safety",
+    "vp2Desc": "Your Priority",
+    "vp3Title": "End-to-End",
+    "vp3Desc": "Service",
+    "vp4Title": "Financial Optimization",
+    "vp4Desc": "Value for Your Investment",
+    "vp5Title": "Sustainable Future",
+    "vp5Desc": "Cleaner Tomorrows"
+  },
+  "footer": {
+    "slogan": "Strong Investment • Smart Savings • Energy Independence",
+    "solutions": "Solutions",
+    "rooftop": "Rooftop PV",
+    "carport": "Carport & EV",
+    "bess": "BESS Storage",
+    "platform": "Platform",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "company": "Company",
+    "about": "About Us",
+    "projects": "Projects",
+    "resources": "Resources",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  }
+}

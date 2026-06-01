@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "solutions": "Çözümlerimiz",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "projects": "Projeler",
+    "resources": "Kaynaklar",
+    "contact": "İletişim",
+    "cta": "Ücretsiz Ön Fizibilite Al"
+  },
+  "hero": {
+    "badge": "BY SUN SOLAR ENERGY PLATFORM",
+    "headline": "Doğru partnerle enerji yatırımınız",
+    "headlineAccent": "geleceğe hazır.",
+    "subtext": "Mühendislik, EPC, işletme ve dijital enerji yönetimini tek yapıda sunuyoruz.",
+    "cta1": "Ücretsiz Ön Fizibilite Al",
+    "cta2": "Nasıl Çalışır?",
+    "cta2sub": "2 dakikada keşfedin"
+  },
+  "trust": {
+    "title": "Güven Standartlarımız",
+    "anre": "ANRE Uyumlu",
+    "anreDesc": "Mevzuata tam uyum",
+    "epc": "EPC Uzmanlığı",
+    "epcDesc": "Mühendislikten deneyim alın",
+    "energyos": "EnergyOS Destekli",
+    "energyosDesc": "Akıllı analiz platformu",
+    "om": "Uzun Vadeli O&M",
+    "omDesc": "İşletme ve bakım desteği"
+  },
+  "feasibility": {
+    "title": "Verinizi analize dönüştürüyor, tasarruf fırsatlarını ortaya çıkarıyoruz.",
+    "description": "Çatı alanınız ve mevcut tüketiminize göre üretilebilir enerji, OPCOM fiyatlarına göre tasarruf hesaplaması ve yatırım geri dönüş analizini ücretsiz olarak sunuyoruz.",
+    "card1": "Çatı m² Alan Analizi",
+    "card2": "Üretilebilir Enerji Hesabı",
+    "card3": "Mevcut Tüketim Eşleştirmesi",
+    "card4": "OPCOM Fiyat Bazlı Ekonomi",
+    "cta": "Ücretsiz Ön Fizibilite Al"
+  },
+  "solutions": {
+    "title": "Çözümlerimiz",
+    "subtitle": "Endüstriyel ve ticari tesisler için uçtan uca enerji çözümleri.",
+    "rooftop": {
+      "title": "Çatı GES Çözümleri",
+      "desc": "Endüstriyel ve ticari tesisler için yüksek verimli çatı GES sistemleri tasarlıyor, kuruyor ve işletiyoruz."
+    },
+    "carport": {
+      "title": "Carport & EV Şarj Çözümleri",
+      "desc": "Güneş enerjisiyle entegre carport sistemleri ve akıllı şarj altyapılarıyla geleceğe hazır mobilite çözümleri sunuyoruz."
+    },
+    "bess": {
+      "title": "BESS Enerji Depolama Çözümleri",
+      "desc": "Enerjinizi depoluyor, esnek kullanım sağlıyor ve şebeke bağımlılığınızı azaltıyoruz."
+    },
+    "learnMore": "Detaylı Bilgi"
+  },
+  "about": {
+    "title": "Sahadan gelen tecrübe, mühendislikten gelen güven.",
+    "desc": "BY SUN SOLAR ENERGY PLATFORM, enerji sektöründe sahadan gelen EPC tecrübesi, operasyonel deneyim ve kendi enerji üretim yatırımı bakış açısıyla hareket eden bir enerji dönüşüm partneridir.",
+    "desc2": "Kurucularımızın enerji üretim santrali tecrübesi sayesinde yatırımcı gözüyle riskleri, geri dönüş süresini ve gerçek saha ihtiyaçlarını anlayan projeler geliştiriyoruz.",
+    "point1": "Gerçek saha ve EPC tecrübesi",
+    "point2": "Enerji üretim santrali deneyimi",
+    "point3": "Yatırımcı bakış açısı",
+    "point4": "Uzun vadeli işletme perspektifi",
+    "cta": "Hakkımızda Daha Fazla"
+  },
+  "energyos": {
+    "title": "BY SUN EnergyOS",
+    "subtitle": "Smart Energy Management Platform",
+    "desc": "Üretim, tüketim, bakım, performans, ESG ve tasarruf verilerini tek merkezde görünür hale getiren dijital enerji yönetim katmanı.",
+    "module1": "Üretim Takibi",
+    "module2": "Depolama & Esneklik",
+    "module3": "EV Şarj Hazırlığı",
+    "module4": "Kontrol Merkezi",
+    "module5": "ESG Dashboard",
+    "module6": "Alarm / Bakım / Performans",
+    "cta": "EnergyOS'u Keşfet"
+  },
+  "esg": {
+    "title": "Yeşil enerjiyi ölçülebilir değere dönüştürüyoruz.",
+    "message": "Enerjinizi üretin. Belgelendirin. Raporlayın. Kurumsal değere dönüştürün.",
+    "module1": "Green Energy Certification",
+    "module2": "GO / I-REC Süreç Yönetimi",
+    "module3": "ESG & Carbon Reporting",
+    "module4": "EnergyOS ESG Dashboard",
+    "module5": "Aylık ESG / Carbon Raporu",
+    "cta": "ESG Çözümlerini İncele"
+  },
+  "projects": {
+    "title": "Örnek Uygulamalar",
+    "subtitle": "Sektöre özel çözüm senaryolarımız.",
+    "note": "Görseller örnek uygulama niteliğindedir.",
+    "card1": "Ticari Çatı GES Uygulaması",
+    "card2": "Solar Carport & EV Charging Altyapısı",
+    "card3": "BESS Enerji Depolama Alanı",
+    "card4": "EnergyOS Monitoring Uygulaması"
+  },
+  "contact": {
+    "title": "Enerji dönüşümünüzü birlikte planlayalım.",
+    "desc": "Elektrik faturanız, çatı/otopark m² alanınız, saha konumunuz ve tüketim profiliniz üzerinden ön fizibilite hazırlayalım.",
+    "cta": "Ücretsiz Ön Fizibilite Al",
+    "company": "Şirket Adı",
+    "contact_person": "Yetkili Kişi",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "location": "Tesis Lokasyonu",
+    "area": "Çatı/Otopark m² Bilgisi",
+    "consumption": "Aylık/Yıllık Tüketim (kWh)",
+    "invoice": "Elektrik Faturası Yükle",
+    "submit": "Ön Fizibilite Talep Et",
+    "sending": "Gönderiliyor...",
+    "success": "Talebiniz alındı! En kısa sürede sizinle iletişime geçeceğiz.",
+    "required": "Bu alan zorunludur."
+  },
+  "valueProps": {
+    "vp1Title": "Mühendislik",
+    "vp1Desc": "Odaklı Yaklaşım",
+    "vp2Title": "Kalite ve Güvenlik",
+    "vp2Desc": "Önceliğiniz",
+    "vp3Title": "Uçtan Uca",
+    "vp3Desc": "Hizmet",
+    "vp4Title": "Finansal Optimizasyon",
+    "vp4Desc": "Yatırımınıza Değer Katar",
+    "vp5Title": "Sürdürülebilir Gelecek",
+    "vp5Desc": "Daha Temiz Yarınlar"
+  },
+  "footer": {
+    "slogan": "Güçlü Yatırım • Akıllı Tasarruf • Enerji Bağımsızlığı",
+    "solutions": "Çözümler",
+    "rooftop": "Çatı GES",
+    "carport": "Carport & EV",
+    "bess": "BESS Depolama",
+    "platform": "Platform",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "company": "Kurumsal",
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "resources": "Kaynaklar",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası"
+  }
+}

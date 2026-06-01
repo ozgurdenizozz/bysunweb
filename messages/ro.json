@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "solutions": "Soluții",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "projects": "Proiecte",
+    "resources": "Resurse",
+    "contact": "Contact",
+    "cta": "Pre-fezabilitate Gratuită"
+  },
+  "hero": {
+    "badge": "BY SUN SOLAR ENERGY PLATFORM",
+    "headline": "Cu partenerul potrivit, investiția dvs. energetică este",
+    "headlineAccent": "pregătită pentru viitor.",
+    "subtext": "Oferim inginerie, EPC, operare și management digital al energiei într-o singură platformă integrată.",
+    "cta1": "Pre-fezabilitate Gratuită",
+    "cta2": "Cum funcționează",
+    "cta2sub": "Descoperiți în 2 minute"
+  },
+  "trust": {
+    "title": "Standardele noastre de încredere",
+    "anre": "Conform ANRE",
+    "anreDesc": "Conformitate completă",
+    "epc": "Expertiză EPC",
+    "epcDesc": "Experiență în inginerie",
+    "energyos": "Alimentat de EnergyOS",
+    "energyosDesc": "Platformă inteligentă",
+    "om": "O&M pe termen lung",
+    "omDesc": "Suport operare și mentenanță"
+  },
+  "feasibility": {
+    "title": "Transformăm datele dvs. în analize și descoperim oportunități de economisire.",
+    "description": "Pe baza suprafeței acoperișului și a consumului dvs. actual, oferim gratuit calculul energiei producibile, analiza economiilor bazată pe prețurile OPCOM și analiza rentabilității investiției.",
+    "card1": "Analiza suprafeței acoperișului m²",
+    "card2": "Calculul energiei producibile",
+    "card3": "Potrivirea consumului",
+    "card4": "Economie bazată pe prețul OPCOM",
+    "cta": "Obțineți Pre-fezabilitate Gratuită"
+  },
+  "solutions": {
+    "title": "Soluțiile noastre",
+    "subtitle": "Soluții energetice complete pentru facilități industriale și comerciale.",
+    "rooftop": {
+      "title": "Soluții Fotovoltaice pe Acoperiș",
+      "desc": "Proiectăm, instalăm și operăm sisteme fotovoltaice de înaltă eficiență pentru facilități industriale și comerciale."
+    },
+    "carport": {
+      "title": "Soluții Carport & Încărcare EV",
+      "desc": "Oferim soluții de mobilitate pregătite pentru viitor cu sisteme carport integrate solar și infrastructură de încărcare inteligentă."
+    },
+    "bess": {
+      "title": "Soluții de Stocare Energie BESS",
+      "desc": "Stocăm energia dvs., permitem utilizarea flexibilă și reducem dependența de rețea."
+    },
+    "learnMore": "Aflați mai mult"
+  },
+  "about": {
+    "title": "Experiență de teren. Încredere inginerească.",
+    "desc": "BY SUN SOLAR ENERGY PLATFORM este un partener de transformare energetică ce operează cu experiență EPC bazată pe teren, know-how operațional și perspectiva unui producător propriu de energie.",
+    "desc2": "Datorită experienței fondatorilor noștri în centrale de producere a energiei, dezvoltăm proiecte care înțeleg riscurile, perioadele de recuperare și cerințele reale de teren din perspectiva investitorului.",
+    "point1": "Experiență reală de teren și EPC",
+    "point2": "Expertiză în centrale de producere a energiei",
+    "point3": "Perspectiva investitorului",
+    "point4": "Perspectivă operațională pe termen lung",
+    "cta": "Aflați mai mult despre noi"
+  },
+  "energyos": {
+    "title": "BY SUN EnergyOS",
+    "subtitle": "Platformă inteligentă de management al energiei",
+    "desc": "Un strat digital de management al energiei care face vizibile datele de producție, consum, întreținere, performanță, ESG și economii într-un singur centru.",
+    "module1": "Monitorizare producție",
+    "module2": "Stocare & Flexibilitate",
+    "module3": "Pregătire încărcare EV",
+    "module4": "Centru de control",
+    "module5": "Dashboard ESG",
+    "module6": "Alarmă / Întreținere / Performanță",
+    "cta": "Explorați EnergyOS"
+  },
+  "esg": {
+    "title": "Transformăm energia verde în valoare măsurabilă.",
+    "message": "Produceți energia. Certificați-o. Raportați-o. Transformați-o în valoare corporativă.",
+    "module1": "Certificare Energie Verde",
+    "module2": "Management Proces GO / I-REC",
+    "module3": "Raportare ESG & Carbon",
+    "module4": "EnergyOS ESG Dashboard",
+    "module5": "Raport lunar ESG / Carbon",
+    "cta": "Explorați soluțiile ESG"
+  },
+  "projects": {
+    "title": "Aplicații exemplu",
+    "subtitle": "Scenariile noastre de soluții specifice sectorului.",
+    "note": "Imaginile sunt cu titlu ilustrativ.",
+    "card1": "Aplicație fotovoltaică comercială pe acoperiș",
+    "card2": "Infrastructură Solar Carport & Încărcare EV",
+    "card3": "Instalație de stocare energie BESS",
+    "card4": "Aplicație de monitorizare EnergyOS"
+  },
+  "contact": {
+    "title": "Să planificăm împreună transformarea dvs. energetică.",
+    "desc": "Să pregătim o pre-fezabilitate pe baza facturii dvs. de electricitate, suprafeței acoperișului/parcării, locației facilității și profilului de consum.",
+    "cta": "Obțineți Pre-fezabilitate Gratuită",
+    "company": "Numele companiei",
+    "contact_person": "Persoana de contact",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "location": "Locația facilității",
+    "area": "Suprafața acoperiș/parcare m²",
+    "consumption": "Consum lunar/anual (kWh)",
+    "invoice": "Încărcați factura de electricitate",
+    "submit": "Solicitați pre-fezabilitate",
+    "sending": "Se trimite...",
+    "success": "Cererea dvs. a fost primită! Vă vom contacta în curând.",
+    "required": "Acest câmp este obligatoriu."
+  },
+  "valueProps": {
+    "vp1Title": "Inginerie",
+    "vp1Desc": "Abordare Focalizată",
+    "vp2Title": "Calitate & Siguranță",
+    "vp2Desc": "Prioritatea Dvs.",
+    "vp3Title": "De la Capăt la Capăt",
+    "vp3Desc": "Serviciu",
+    "vp4Title": "Optimizare Financiară",
+    "vp4Desc": "Valoare pentru Investiția Dvs.",
+    "vp5Title": "Viitor Sustenabil",
+    "vp5Desc": "Mâine mai Curate"
+  },
+  "footer": {
+    "slogan": "Investiție Solidă • Economii Inteligente • Independență Energetică",
+    "solutions": "Soluții",
+    "rooftop": "Fotovoltaic pe acoperiș",
+    "carport": "Carport & EV",
+    "bess": "Stocare BESS",
+    "platform": "Platformă",
+    "energyos": "BY SUN EnergyOS",
+    "esg": "ESG & GO",
+    "company": "Companie",
+    "about": "Despre noi",
+    "projects": "Proiecte",
+    "resources": "Resurse",
+    "contact": "Contact",
+    "rights": "Toate drepturile rezervate.",
+    "privacy": "Politica de confidențialitate"
+  }
+}

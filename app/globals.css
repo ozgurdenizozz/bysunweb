@@ -1,26 +1,39 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #0A4FD9;
+  --primary-dark: #083EA8;
+  --navy: #102A43;
+  --sky: #EAF6FF;
+  --soft: #F4FAFF;
+  --gold: #F5B400;
+  --text-gray: #64748B;
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-montserrat);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-navy: var(--navy);
+  --color-sky-blue: var(--sky);
+  --color-soft-blue: var(--soft);
+  --color-gold: var(--gold);
+  --color-text-gray: var(--text-gray);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-montserrat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--navy);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-montserrat), Arial, sans-serif;
 }
