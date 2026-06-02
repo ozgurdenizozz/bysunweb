@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
 
     // Email gönder
     const result = await resend.emails.send({
-      from: 'noreply@resend.dev',
+      from: 'noreply@bysunsolar.com',
       to: 'info@bysunsolar.com',
       replyTo: email,
       subject: `Yeni Ön Fizibilite Talebi - ${company}`,

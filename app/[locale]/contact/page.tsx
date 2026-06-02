@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
+  const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState<Record<string, boolean>>({});
@@ -30,7 +31,7 @@ export default function ContactPage() {
 
     setLoading(true);
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch(`/${locale}/api/contact`, {
         method: 'POST',
         body: data,
       });
