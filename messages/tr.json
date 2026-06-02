@@ -135,6 +135,7 @@
     "submit": "Ön Fizibilite Talep Et",
     "sending": "Gönderiliyor...",
     "success": "Talebiniz alındı! En kısa sürede sizinle iletişime geçeceğiz.",
+    "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
     "required": "Bu alan zorunludur."
   },
   "valueProps": {

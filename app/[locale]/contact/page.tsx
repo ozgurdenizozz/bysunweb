@@ -29,10 +29,23 @@ export default function ContactPage() {
     }
 
     setLoading(true);
-    // Simulate API call
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: data,
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send form');
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert(t("error"));
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (

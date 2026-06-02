@@ -135,6 +135,7 @@
     "submit": "Solicitați pre-fezabilitate",
     "sending": "Se trimite...",
     "success": "Cererea dvs. a fost primită! Vă vom contacta în curând.",
+    "error": "A apărut o eroare. Vă rugăm încercați din nou mai târziu.",
     "required": "Acest câmp este obligatoriu."
   },
   "valueProps": {

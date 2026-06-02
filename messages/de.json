@@ -135,6 +135,7 @@
     "submit": "Voranalyse anfragen",
     "sending": "Wird gesendet...",
     "success": "Ihre Anfrage wurde erhalten! Wir melden uns in Kürze.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
     "required": "Dieses Feld ist erforderlich."
   },
   "valueProps": {

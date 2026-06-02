@@ -135,6 +135,7 @@
     "submit": "Request Pre-Feasibility",
     "sending": "Sending...",
     "success": "Your request has been received! We will contact you shortly.",
+    "error": "An error occurred. Please try again later.",
     "required": "This field is required."
   },
   "valueProps": {
