@@ -91,7 +91,19 @@
     "roiLabel": "ROI / Tasarruf",
     "roiDesc": "Yatırım geri dönüş analizi ve tasarruf raporları",
     "ctaDesc": "Platform demosu veya ön görüşme için bizimle iletişime geçin.",
-    "cta": "EnergyOS'u Keşfet"
+    "cta": "EnergyOS'u Keşfet",
+    "liveStatus": "Anlık Durum",
+    "installedPower": "Kurulu Güç",
+    "liveGeneration": "Anlık Üretim",
+    "selfConsumption": "Öz Tüketim Oranı",
+    "viewDetails": "Detaylı İzle",
+    "dailyEnergyFlow": "Günlük Enerji Akışı (kWh)",
+    "generation": "Üretim",
+    "consumption": "Tüketim",
+    "battery": "Batarya",
+    "grid": "Şebeke",
+    "realtimeData": "Tüm veriler gerçek zamanlı",
+    "discoverEnergyOS": "EnergyOS'u Keşfedin"
   },
   "esg": {
     "title": "Yeşil enerjiyi ölçülebilir değere dönüştürüyoruz.",

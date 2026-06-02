@@ -91,7 +91,19 @@
     "roiLabel": "ROI / Economii",
     "roiDesc": "Analiza rentabilității investiției și rapoarte de economii",
     "ctaDesc": "Contactați-ne pentru o demo de platformă sau previzualizare.",
-    "cta": "Explorați EnergyOS"
+    "cta": "Explorați EnergyOS",
+    "liveStatus": "Status Live",
+    "installedPower": "Putere instalată",
+    "liveGeneration": "Generare live",
+    "selfConsumption": "Rata de autconsum",
+    "viewDetails": "Vedeți detaliile",
+    "dailyEnergyFlow": "Fluxul zilnic de energie (kWh)",
+    "generation": "Generare",
+    "consumption": "Consum",
+    "battery": "Baterie",
+    "grid": "Rețea",
+    "realtimeData": "Toate datele în timp real",
+    "discoverEnergyOS": "Descoperiți EnergyOS"
   },
   "esg": {
     "title": "Transformăm energia verde în valoare măsurabilă.",

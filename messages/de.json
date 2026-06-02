@@ -91,7 +91,19 @@
     "roiLabel": "ROI / Einsparungen",
     "roiDesc": "Analyse der Investitionsrendite und Sparbericht",
     "ctaDesc": "Kontaktieren Sie uns für eine Plattformdemo oder Vorschau.",
-    "cta": "EnergyOS entdecken"
+    "cta": "EnergyOS entdecken",
+    "liveStatus": "Live-Status",
+    "installedPower": "Installierte Leistung",
+    "liveGeneration": "Live-Erzeugung",
+    "selfConsumption": "Eigenverbrauchsquote",
+    "viewDetails": "Details anzeigen",
+    "dailyEnergyFlow": "Täglicher Energiefluss (kWh)",
+    "generation": "Erzeugung",
+    "consumption": "Verbrauch",
+    "battery": "Batterie",
+    "grid": "Netz",
+    "realtimeData": "Alle Daten in Echtzeit",
+    "discoverEnergyOS": "EnergyOS entdecken"
   },
   "esg": {
     "title": "Wir verwandeln grüne Energie in messbaren Wert.",

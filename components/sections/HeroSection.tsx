@@ -5,6 +5,7 @@ import TrustSection from "@/components/sections/TrustSection";
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const energyos = useTranslations("energyos");
 
   return (
     <>
@@ -63,16 +64,16 @@ export default function HeroSection() {
               </div>
 
               <div className="grid grid-cols-2 divide-x divide-gray-100">
-                {/* Anlık Durum */}
+                {/* Live Status */}
                 <div className="p-5">
-                  <p className="text-[#64748B] text-xs font-semibold uppercase tracking-wider mb-3">Anlık Durum</p>
+                  <p className="text-[#64748B] text-xs font-semibold uppercase tracking-wider mb-3">{energyos("liveStatus")}</p>
                   <div className="space-y-2 mb-3">
                     <div className="flex items-center gap-2 py-1.5">
                       <div className="w-7 h-7 bg-[#0A4FD9] rounded-md flex items-center justify-center flex-shrink-0">
                         <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                       </div>
                       <div>
-                        <p className="text-[#64748B] text-[10px] leading-none">Kurulu Güç</p>
+                        <p className="text-[#64748B] text-[10px] leading-none">{energyos("installedPower")}</p>
                         <p className="font-bold text-[#102A43] text-sm">1.428 kW</p>
                       </div>
                     </div>
@@ -81,7 +82,7 @@ export default function HeroSection() {
                         <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
                       </div>
                       <div>
-                        <p className="text-[#64748B] text-[10px] leading-none">Anlık Üretim</p>
+                        <p className="text-[#64748B] text-[10px] leading-none">{energyos("liveGeneration")}</p>
                         <p className="font-bold text-[#102A43] text-sm">1.025 kW</p>
                       </div>
                     </div>
@@ -90,19 +91,19 @@ export default function HeroSection() {
                         <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
                       </div>
                       <div>
-                        <p className="text-[#64748B] text-[10px] leading-none">Öz Tüketim Oranı</p>
+                        <p className="text-[#64748B] text-[10px] leading-none">{energyos("selfConsumption")}</p>
                         <p className="font-bold text-[#102A43] text-sm">56 %</p>
                       </div>
                     </div>
                   </div>
                   <Link href="/energyos" className="inline-flex items-center gap-1 text-[#0A4FD9] text-xs font-semibold hover:underline">
-                    Detaylı İzle <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+                    {energyos("viewDetails")} <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
                   </Link>
                 </div>
 
-                {/* Günlük Enerji Akışı */}
+                {/* Daily Energy Flow */}
                 <div className="p-5">
-                  <p className="text-[#64748B] text-xs font-semibold uppercase tracking-wider mb-2">Günlük Enerji Akışı (kWh)</p>
+                  <p className="text-[#64748B] text-xs font-semibold uppercase tracking-wider mb-2">{energyos("dailyEnergyFlow")}</p>
                   <div className="flex gap-1">
                     <div className="flex flex-col justify-between text-right pr-1" style={{ height: "80px" }}>
                       <span className="text-[9px] text-[#64748B] leading-none">12k</span>
@@ -137,18 +138,18 @@ export default function HeroSection() {
                     </div>
                   </div>
                   <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 mt-2">
-                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#0A4FD9] inline-block" /> Üretim</span>
-                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#F5B400]/80 inline-block" /> Tüketim</span>
-                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-green-400 inline-block" /> Batarya</span>
-                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#CBD5E1] inline-block" /> Şebeke</span>
+                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#0A4FD9] inline-block" /> {energyos("generation")}</span>
+                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#F5B400]/80 inline-block" /> {energyos("consumption")}</span>
+                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-green-400 inline-block" /> {energyos("battery")}</span>
+                    <span className="flex items-center gap-0.5 text-[9px] text-[#64748B]"><span className="w-2 h-2 rounded-sm bg-[#CBD5E1] inline-block" /> {energyos("grid")}</span>
                   </div>
                 </div>
               </div>
 
               <div className="px-5 py-3 bg-[#EAF6FF] flex items-center justify-between">
-                <span className="text-xs text-[#64748B]">Tüm veriler gerçek zamanlı</span>
+                <span className="text-xs text-[#64748B]">{energyos("realtimeData")}</span>
                 <Link href="/energyos" className="text-xs font-bold text-[#0A4FD9] hover:underline flex items-center gap-1">
-                  EnergyOS&apos;u Keşfedin <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+                  {energyos("discoverEnergyOS")} <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
                 </Link>
               </div>
             </div>
