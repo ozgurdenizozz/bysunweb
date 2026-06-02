@@ -67,7 +67,7 @@ export default function ContactPage() {
                 <div className="bg-white rounded-2xl p-6 shadow-sm border border-blue-50">
                   <h3 className="font-black text-[#102A43] mb-5 flex items-center gap-2">
                     <span className="w-7 h-7 rounded-full bg-[#EAF6FF] text-[#0A4FD9] flex items-center justify-center text-xs font-bold">1</span>
-                    Firma / Yetkili Bilgileri
+                    {t("section1")}
                   </h3>
                   <div className="space-y-4">
                     {[
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 <div className="bg-white rounded-2xl p-6 shadow-sm border border-blue-50">
                   <h3 className="font-black text-[#102A43] mb-5 flex items-center gap-2">
                     <span className="w-7 h-7 rounded-full bg-[#EAF6FF] text-[#0A4FD9] flex items-center justify-center text-xs font-bold">2</span>
-                    Tesis / Tüketim Bilgileri
+                    {t("section2")}
                   </h3>
                   <div className="space-y-4">
                     <div>
@@ -129,14 +129,14 @@ export default function ContactPage() {
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-blue-50 mb-6">
                 <h3 className="font-black text-[#102A43] mb-5 flex items-center gap-2">
                   <span className="w-7 h-7 rounded-full bg-[#EAF6FF] text-[#0A4FD9] flex items-center justify-center text-xs font-bold">3</span>
-                  İstenen Belgeler
+                  {t("section3")}
                 </h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
                   {[
-                    { label: "Elektrik Faturası", icon: "📄", name: "invoice" },
-                    { label: "Çatı m² Planı", icon: "📐", name: "roof_plan" },
-                    { label: "Tüketim Profili", icon: "📊", name: "consumption_profile" },
-                    { label: "Lokasyon Bilgisi", icon: "📍", name: "location_doc" },
+                    { label: t("doc1"), icon: "📄", name: "invoice" },
+                    { label: t("doc2"), icon: "📐", name: "roof_plan" },
+                    { label: t("doc3"), icon: "📊", name: "consumption_profile" },
+                    { label: t("doc4"), icon: "📍", name: "location_doc" },
                   ].map((doc) => (
                     <div key={doc.name} className="border-2 border-dashed border-blue-100 rounded-xl p-3 text-center hover:border-[#0A4FD9]/40 transition-colors cursor-pointer">
                       <div className="text-2xl mb-1">{doc.icon}</div>
@@ -157,7 +157,7 @@ export default function ContactPage() {
 
               {/* CTA / Onay */}
               <div className="bg-[#EAF6FF] rounded-2xl p-6 border border-blue-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <p className="text-[#64748B] text-sm">Form gönderimi sonrası BY SUN ekibi ön fizibilite için iletişime geçer.</p>
+                <p className="text-[#64748B] text-sm">{t("info")}</p>
                 <button
                   type="submit"
                   disabled={loading}
