@@ -14,6 +14,7 @@ export async function POST(req: NextRequest) {
     const location = formData.get('location') as string;
     const area = formData.get('area') as string;
     const consumption = formData.get('consumption') as string;
+    const invoiceFile = formData.get('invoice') as File | null;
 
     // Validasyon
     if (!company || !contact_person || !phone || !email || !location) {
@@ -43,6 +44,16 @@ export async function POST(req: NextRequest) {
       </p>
     `;
 
+    // Dosya işle (varsa)
+    const attachments = [];
+    if (invoiceFile) {
+      const buffer = Buffer.from(await invoiceFile.arrayBuffer());
+      attachments.push({
+        filename: invoiceFile.name,
+        content: buffer,
+      });
+    }
+
     // Email gönder
     const result = await resend.emails.send({
       from: 'noreply@bysunsolar.com',
@@ -50,6 +61,7 @@ export async function POST(req: NextRequest) {
       replyTo: email,
       subject: `Yeni Ön Fizibilite Talebi - ${company}`,
       html: emailHtml,
+      ...(attachments.length > 0 && { attachments }),
     });
 
     if (result.error) {
