@@ -12,6 +12,9 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat
 export const metadata: Metadata = {
   title: "BY SUN Solar Energy Platform",
   description: "Engineering, EPC, operations and digital energy management in one platform.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default async function LocaleLayout({
