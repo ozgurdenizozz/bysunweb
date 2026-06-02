@@ -158,14 +158,23 @@ export default function ContactPage() {
                     </div>
                   ))}
                 </div>
-                <div>
-                  <label className="block text-xs font-semibold text-[#102A43] mb-1.5">{t("invoice")}</label>
-                  <input
-                    name="invoice"
-                    type="file"
-                    accept=".pdf,.jpg,.jpeg,.png"
-                    className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-[#102A43] file:mr-3 file:border-0 file:bg-[#EAF6FF] file:text-[#0A4FD9] file:font-semibold file:rounded-lg file:px-3 file:py-1 file:text-xs"
-                  />
+                <div className="space-y-4">
+                  {[
+                    { label: t("doc1"), name: "invoice" },
+                    { label: t("doc2"), name: "roof_plan" },
+                    { label: t("doc3"), name: "consumption_profile" },
+                    { label: t("doc4"), name: "location_doc" },
+                  ].map((doc) => (
+                    <div key={doc.name}>
+                      <label className="block text-xs font-semibold text-[#102A43] mb-1.5">{doc.label}</label>
+                      <input
+                        name={doc.name}
+                        type="file"
+                        accept=".pdf,.jpg,.jpeg,.png"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-[#102A43] file:mr-3 file:border-0 file:bg-[#EAF6FF] file:text-[#0A4FD9] file:font-semibold file:rounded-lg file:px-3 file:py-1 file:text-xs"
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
 

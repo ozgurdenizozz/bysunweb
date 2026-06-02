@@ -14,7 +14,12 @@ export async function POST(req: NextRequest) {
     const location = formData.get('location') as string;
     const area = formData.get('area') as string;
     const consumption = formData.get('consumption') as string;
+
+    // Dosyaları topla
     const invoiceFile = formData.get('invoice') as File | null;
+    const roofPlanFile = formData.get('roof_plan') as File | null;
+    const consumptionFile = formData.get('consumption_profile') as File | null;
+    const locationFile = formData.get('location_doc') as File | null;
 
     // Validasyon
     if (!company || !contact_person || !phone || !email || !location) {
@@ -44,14 +49,18 @@ export async function POST(req: NextRequest) {
       </p>
     `;
 
-    // Dosya işle (varsa)
+    // Dosyaları işle (varsa)
     const attachments = [];
-    if (invoiceFile) {
-      const buffer = Buffer.from(await invoiceFile.arrayBuffer());
-      attachments.push({
-        filename: invoiceFile.name,
-        content: buffer,
-      });
+    const files = [invoiceFile, roofPlanFile, consumptionFile, locationFile];
+
+    for (const file of files) {
+      if (file) {
+        const buffer = Buffer.from(await file.arrayBuffer());
+        attachments.push({
+          filename: file.name,
+          content: buffer,
+        });
+      }
     }
 
     // Email gönder
